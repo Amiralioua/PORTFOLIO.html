@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="Style.css">
+	 
+	<title></title>
+	 
+</head>
+<body>
+	<div class="per1">
+
+		<div class="nav">
+			 <div class="div0"> </div>
+			  <div class="linknav">  
+			 	<div>Skills</div>
+			 	 
+			 		<div class="pnav" ><p class="p1">Projects</p><img class="im6" src="img11.png">
+			 		</div>
+			 	 <div>Contact me</div>
+			  
+              </div>
+
+
+
+
+		</div>
+		<div class="presentation">
+		<div>
+			<p class="title"><b>John Doe</b></p>
+			<p class="parag">Hello! Am a software developer and <br>here is my portfolio website. Here<br> you'll learn about my journey as a<br> software developer. 
+            </p>
+            <br>
+			<button class="button"><font color="#ffffff">Hire me</font></button>
+		</div>
+		<img class="img1" src="img1.png">
+		</div>
+	</div>
+	<br>
+	<br>
+	
+	<div class="per2">
+
+	<div class="titre1"><b>skills</b></div>
+
+
+	<div class="skills">
+		<div class="part1"> 
+        <p class="parag2">I have a vast experience in the <br>following web technologies: 
+        </p>
+        <div class="logo">
+        	<div class="logo1">
+        		<img src="img3.png">
+        		<div>Html 5</div>
+        	</div>
+        	<div class="logo2">
+        		<img src="img4.png">
+        		<p>Css 3</p>
+        	</div>
+        	<div class="logo3">
+        		<img src="img5.png">
+        		<p>JavaScript</p>
+        	</div>
+
+        	
+        </div>
+        <div class="logo4">
+        		<img src="img6.png">
+        		<p>Bootstrap</p>
+        	</div>
+        </div>
+
+        <img class="img2" src="img2.png">
+    
+
+	</div>
+	</div>
+	<div class="leproject">
+
+		<div class="per3">
+
+		  <div class="titre3">
+			<p>Projects</p>
+			<img src="img11.png">
+		  </div>
+
+		  <div class="descri1">Some of my projects include </div>
+		  <div id="projects"></div>
+
+		</div>
+					<script type="text/javascript">
+
+		function creatrProject(img,descrip,link) 
+		  {return{img,descrip,link}
+		     }
+		     function convertProjectToHtml(projet){
+		     	img=projet.img
+		     	descrip=projet.descrip
+		     	link=projet.link
+		     	imglink='imgLink.png'
+		     	textLink='Visite Site'
+		     	
+
+		     	imgElement=document.createElement('img')
+		     	imgElement.src=img
+		     	imgElement.className='projetimg1'
+
+		     	p=document.createElement("p")
+		     	descripElement=document.createTextNode(descrip)
+		     	p.appendChild(descripElement)
+		     	p.className='descrip1'
+		     	a=document.createElement('a')
+		     	imgLinkElement=document.createElement('img')
+		     	imgLinkElement.src=imglink
+		     	imgLinkElement.className='imglink'
+		     	textLinkElement=document.createTextNode(textLink)
+		     	 
+
+		     	a.href=link
+		     	a.className='link'
+		     	a.appendChild(textLinkElement)
+		     	a.appendChild(imgLinkElement)
+		     	div=document.createElement('div')
+		     	div.className=' projet'
+		     	 div.appendChild(imgElement)
+		     	 div.appendChild(p)
+		     	 div.appendChild(a)
+		     	
+
+
+		     	return  div 
+
+		     }
+		     projet=creatrProject('img13.png','Made a social media manager template using HTML 5,CSS and JS only','https://www.google.com/') 
+		     projet1=creatrProject('img14.png','Made a simple card page using HTML 5 and CSS 3 ','https://www.google.com/')
+		     projet2=creatrProject('img15.png','Made an I.P address tracking website ','https://www.google.com/') 
+		     let tab=[projet,projet1,projet2] 
+		     const container= document.getElementById('projects') ;
+
+		     projet=convertProjectToHtml(tab[0])
+		     projet1=convertProjectToHtml(tab[1])
+		     projet2=convertProjectToHtml(tab[2])
+
+		     container.appendChild(projet)
+		     container.appendChild(projet1)
+		     container.appendChild(projet2)
+
+	</script>
+		 
+		 
+			
+		 
+
+		 
+		  
+		</div>
+	 
+
+		
+	</div>
+	<div class="contact1">
+		<div class="titre4">Contact me</div>
+		<div class="Contact11">
+		<img class="img10" src="img10.png">
+		<form>
+		<div class="form">
+
+			<div class="p1">
+
+			<label class="email" for="input_id"> </label><br>
+			<input id="email" type="email" placeholder="  Entre email address">
+			<label for="input_id"> </label><br>
+			<input id="message" type="text" placeholder="  Enter message...">
+			</div>
+			<button class="button1"><font class="b1" color="#ffffff">Send <img class="i1" src="img16.png"></font></button>
+			
+		</div>
+		</div>
+		</form>
+		
+	</div>
+
+	<div class="contact2">
+<div class="socialmed">
+		 <p class="socialtexte">My social media links:</p>
+		 <div class="linksocial">
+		 
+         <a href="https://www.linkedin.com/" class=" fa-linkedin"><img class="logolink" src="linkedin.png"></a>
+         <a href="https://web.whatsapp.com/" class=" fa-whatsapp"><img class="logowht" src="whatsapp.png"></a>
+         <a href="https://twitter.com/" class=" fa-twitter"><img class="logotwi" src="twitter.png"></a>
+         
+         <a href="lioua.amira@gmail.com" class=" fa-email"><img class="logotwi" src="email.png"></a>
+         </div>
+</div>
+<div class="githubcont">
+         <p class="githubtexte">Wher to get my code</p>
+         <div class=" github">
+         	<img class="logogithub" src="img18.png">
+         	<p class="pg1">@</p>
+         	<a class="linkgithub" href="https://github.com/">john-doe</a> 
+         	<p class="pg2">on github</p>
+         </div>
+</div>         
+
+
+		
+	</div>
+
+
+</body>
+
+
+</html>

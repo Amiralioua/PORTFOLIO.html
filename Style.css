@@ -1,0 +1,246 @@
+*{margin: 2px;
+padding: 2px;
+ 
+  
+ ;}
+ #email{
+    width: 329px;
+    height: 62px;
+    box-shadow: 2px 4px 5px grey;
+    border: 0;
+    border-radius: 5px;
+}
+#message{width: 329px;
+    height: 181px;
+    box-shadow: 2px 4px 5px grey;
+    border: 0;
+    border-radius: 5px;
+}
+.button1{
+         background-color: #6860e2;
+         border: 0px solid;
+         width: 135px;
+         height: 44px;
+         border-radius: 5px;
+         font-size: 23px;
+         box-shadow: 2px 2px 3px #aaa;
+         display: flex;
+         flex-direction: row;
+         align-items: center;
+         justify-content: center;
+ }
+
+ 
+ .b1{    display: flex;
+    align-items: center;
+}
+.i1{width: 42px;}
+.titre4{padding: 76px;
+        font-size: 30px;
+        font-family: SofiaSans-Bold;
+        color: #f7797c;}
+ .img10{width: 552px;}
+ .contact1{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+             
+    }
+
+.contact2{background-image: url(img12.png);
+    height: 35vh;}
+.form{
+        width: 382px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+ }            
+
+ .Contact11{
+           display: flex;
+           justify-content: space-between;
+           gap: 70px;
+           align-items: center;
+           }
+ .im6{width: 40px;}
+ .p1{color : #f7797c;;}
+ .nav{display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 468px;
+      font-family: SofiaSans-ExtraLight;
+      color: black;
+      font-size: 23px ;} 
+.linknav{display: flex;
+                  list-style: none;
+                  align-items: center;
+                  justify-items: flex-end;
+                  gap:20px;}
+.pnav {display: flex;
+       align-items: center;
+}
+.container{ display: flex;
+           flex-direction: row-reverse;
+           align-items: center;}
+.projet {
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 7px #24679c solid;
+    padding: 0px;
+    margin-bottom: 0;
+
+}
+.descrip1 {
+    width: 354px;
+    font-size: 34px;
+    color: gray;
+    font-family: SofiaSans-ExtraLight;
+
+}
+
+.link {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    font-family: SofiaSans-Bold;
+    font-size: 23px;
+    color: #24679c;}
+
+.leproject{height:  ;
+         display: flex;
+         flex-direction: column;
+         align-items: center}
+.titre3{display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+            font-family:SofiaSans-Bold;
+        color: #f7797c;} 
+.descri1{font-size: 30px;
+         color: gray;
+         font-family: SofiaSans-ExtraLight;
+         display: flex;
+         justify-content: center;}               
+
+.button{border: 0px solid;
+        background-color: #ed474c;
+        width: 135px;
+        height: 44px;
+        border-radius: 5px;
+        font-size: 23px;
+        box-shadow: 2px 2px 3px #aaa;} 
+.per1{display: flex;
+      flex-direction: column;
+      align-items:   center;
+ height: 100vh;} 
+.per2{display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-top: 92px;
+      align-items:  center;
+      height: 100vh;} 
+.titre1{font-size: 30px;
+            font-family:SofiaSans-Bold;
+        color: #f7797c;}         
+
+.presentation{display: flex;
+              justify-content: center;
+              align-items: center;
+              gap: 20px;
+              padding-top: 45px;}
+
+.title{font-size: 40px;
+       font-family: SofiaSans-Bold;
+       color: #424141}  
+.parag{font-size: 30px;
+       color: gray;
+       font-family: SofiaSans-ExtraLight;}          
+
+.skills{display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 94px;}
+.parag2{font-size: 30px;
+        color: gray;
+        font-family: SofiaSans-ExtraLight;} 
+        
+
+.part1{display: flex;
+       flex-direction: column;
+       align-items: flex-start;}
+.logo{display: flex;
+        flex-wrap: wrap;
+        font-family: SofiaSans-ExtraLight;
+        font-size: 18px;}
+.logo1{display: flex;
+        flex-direction: column;
+        align-items: center;}
+
+.logo2{display: flex;
+        flex-direction: column;
+        align-items: center;}
+
+.logo3{display: flex;
+        flex-direction: column;
+        align-items: center;}
+.logo4{display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: SofiaSans-ExtraLight;
+        font-size: 18px;} 
+        .fa {
+   padding: 10px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 10%;
+}
+ 
+        .fa {
+   padding: 10px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 10%;
+}
+ 
+ 
+ 
+     
+.contact2 {
+    background-image: url(img12.png);
+    background-repeat: no-repeat;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    gap: 420px;
+    align-items: center;
+    font-family: SofiaSans-ExtraLight;
+    font-size: 22px;
+    color: white;
+} 
+.github{display: flex;
+        align-items: center;}
+.githubcont{display: flex;
+            flex-direction: column;
+            align-items: center;}        
+.logogithub{width: 48px;}
+.logolink{width: 50px;}
+.logotwi{width: 50px;}
+.logowht{width: 50px;}
+.socialtexte{font-size: 34px;}
+.linkgithub{font-size: 34px;
+            text-decoration: none;
+            color: aquamarine;}
+.githubtexte{font-size: 34px;}   
+.pg1{font-size: 34px;}    
+.pg2{font-size: 34px;} 
+
+#projects{display: flex;}    
